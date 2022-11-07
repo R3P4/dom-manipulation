@@ -1,19 +1,34 @@
 body {
-    width: 100Vh ; 
-    height: 110Vw;
-    background: #fff;
-    overflow: hidden;
-  
-  }
-  h1{
-    color: green;
-  }
- ul{
+  width: 100Vh ; 
+  height: 110Vw;
   background: #fff;
-    list-style: none;
- }
-  
- .big-five-button1 {
+  overflow: hidden;
+
+}
+h1{
+  color: green;
+}
+ul{
+width: 33%;
+height:auto;
+background: #fff;
+  list-style: none;
+}
+
+.big-five-button1 {
+width:40%;
+background: rgb(192, 20, 20);
+color: #fff;
+padding: 20px 40px;
+margin: 10px;
+border: 3px inset grey;
+border-radius: 5px;
+}
+.big-five-button1:hover {
+    color: yellow;
+}
+.big-five-button2 {
+  width:40%;
   background: rgb(192, 20, 20);
   color: #fff;
   padding: 20px 40px;
@@ -21,81 +36,72 @@ body {
   border: 3px inset grey;
   border-radius: 5px;
   }
-  .big-five-button1:hover {
+  .big-five-button2:hover {
       color: yellow;
   }
-  .big-five-button2 {
-    background: rgb(192, 20, 20);
-    color: #fff;
-    padding: 20px 40px;
-    margin: 10px;
-    border: 3px inset grey;
-    border-radius: 5px;
-    }
-    .big-five-button2:hover {
-        color: yellow;
-    }
-    .big-five-button3 {
-        background: rgb(192, 20, 20);
-        color: #fff;
-        padding: 20px 40px;
-        margin: 10px;
-        border: 3px inset grey;
-        border-radius: 5px;
-        }
-        .big-five-button3:hover {
-            color: yellow;
-        }
-        .big-five-button4 {
-            background: rgb(192, 20, 20);
-            color: #fff;
-            padding: 20px 40px;
-            margin: 10px;
-            border: 3px inset grey;
-            border-radius: 5px;
-            }
-            .big-five-button4:hover {
-                color: yellow;
-            }
-            .big-five-button5 {
-                background: rgb(192, 20, 20);
-                color: #fff;
-                padding: 20px 40px;
-                margin: 10px;
-                border: 3px inset grey;
-                border-radius: 5px;
-                }
-                .big-five-button5:hover {
-                    color: yellow;
-                }
+  .big-five-button3 {
+    width:40%;
+      background: rgb(192, 20, 20);
+      color: #fff;
+      padding: 20px 40px;
+      margin: 10px;
+      border: 3px inset grey;
+      border-radius: 5px;
+      }
+      .big-five-button3:hover {
+          color: yellow;
+      }
+      .big-five-button4 {
+        width:40%;
+          background: rgb(192, 20, 20);
+          color: #fff;
+          padding: 20px 40px;
+          margin: 10px;
+          border: 3px inset grey;
+          border-radius: 5px;
+          }
+          .big-five-button4:hover {
+              color: yellow;
+          }
+          .big-five-button5 {
+            width:40%;
+              background: rgb(192, 20, 20);
+              color: #fff;
+              padding: 20px 40px;
+              margin: 10px;
+              border: 3px inset grey;
+              border-radius: 5px;
+              }
+              .big-five-button5:hover {
+                  color: yellow;
+              }
 
-  #remove-first-item-button{
-    background: rgb(96, 5, 5);
-    color: #fff;
-    padding: 20px 30px;
-    margin: 10px;
-    border: 3px inset grey;
-    border-radius: 5px;
-  }
-  #remove-first-item-button:hover{
-    color: yellow;
-  }
+#remove-first-item-button{
+  background: rgb(96, 5, 5);
+  color: #fff;
+  padding: 20px 30px;
+  margin: 10px;
+  border: 3px inset grey;
+  border-radius: 5px;
+}
+#remove-first-item-button:hover{
+  color: yellow;
+}
 
-  #remove-all-button{
-    background: rgb(97, 2, 2);
-    color: #fff;
-    padding: 20px 30px;
-    margin: 10px;
-    border: 3px inset grey;
-    border-radius: 5px;
-  }
-  #remove-all-button:hover{
-    color:yellow;
-  }
-  li.spotted-animals-list-item{
-    font-size: 26px;
-    color:brown;
-  }
-  #blue{
-    background: blue;
-    }
+#remove-all-button{
+  background: rgb(97, 2, 2);
+  color: #fff;
+  padding: 20px 30px;
+  margin: 10px;
+  border: 3px inset grey;
+  border-radius: 5px;
+}
+#remove-all-button:hover{
+  color:yellow;
+}
+li.spotted-animals-list-item{
+  font-size: 26px;
+  color:brown;
+}
+
+
